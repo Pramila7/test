@@ -11,7 +11,7 @@ if age > 18{
 }
 
 
-var number = 13
+var number = 18
 func eligible(age: Int) -> Bool {
     if number >= age {
         print("you are \(age)")
@@ -22,3 +22,4 @@ func eligible(age: Int) -> Bool {
         return false
     }
 }
+eligible(age: 16)

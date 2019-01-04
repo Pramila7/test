@@ -23,3 +23,18 @@ func eligible(age: Int) -> Bool {
     }
 }
 eligible(age: 16)
+
+
+var Number = 45
+func Eligible(age: Int) -> Bool {
+    if number >= age {
+        print("you are \(age)")
+        return true
+    }
+    else{
+        print("Error")
+        return false
+    }
+}
+eligible(age: 16)
+
